@@ -28,7 +28,7 @@ OUT PUT :
 Enter current year and year of joining 2005 2001
 Bonus = Rs. 2500
       
-      
+      -------------------------------------------------------------------------
       
       QUESTION 2
       If his basic salary is less than Rs. 1500, then HRA = 10% of basic salary
@@ -64,3 +64,38 @@ gross salary = Rs. 3866.000000
  Enter basic salary 700
 gross salary = Rs. 1400.000000 
  
+ 
+ -----------------------------------------------------------------------
+ 
+   QUESTION 3:
+   The marks obtained by a student in 5 different subjects are
+input through the keyboard. The student gets a division as per the
+following rules:
+Percentage above or equal to 60 - First division
+Percentage between 50 and 59 - Second division
+Percentage between 40 and 49 - Third division
+Percentage less than 40 - Fail
+Write a program to calculate the division obtained by the student
+   
+   
+   #include <stdio.h>
+   int main ()
+   {
+   int m1,m2,m3,m4,m5,per;
+   printf("values of m1,m2,m3,m4,m5");
+   scanf("%d %d %d %d %d",&m1,&m2,&m3,&m4,&m5);
+   per = (m1 + m2 + m3 + m4 + m5)/500*100;
+   if(per>=60)
+   printf("FIRST DIVISION ");
+   if((per>=50)&&(per<60))
+   printf("SECOND DIVISION");
+   if((per>=40)&&(per<50))
+   printf("THIRD DIVISION");
+   if(per<40)
+   printf("FAIL");
+   return 0;
+   }
+ OUTPUT :
+ values of m1,m2,m3,m4,m5
+ 10 20 30 40 50 
+ FAIL
