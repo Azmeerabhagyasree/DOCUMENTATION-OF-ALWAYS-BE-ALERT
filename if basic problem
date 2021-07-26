@@ -95,7 +95,82 @@ Write a program to calculate the division obtained by the student
    printf("FAIL");
    return 0;
    }
- OUTPUT :
+ OUTPUT :: 
  values of m1,m2,m3,m4,m5
  10 20 30 40 50 
  FAIL
+------------------------------------------------------------------------
+
+
+QUESTION 4:
+: A company insures its drivers in the following cases:
+ If the driver is married.
+ If the driver is unmarried, male & above 30 years of age.
+ If the driver is unmarried, female & above 25 years of age.
+In all other cases, the driver is not insured. If the marital status, sex and
+age of the driver are the inputs, write a program to determine whether
+the driver should be insured or not.  
+
+
+#include<stdio.h>
+int main ()
+{
+int age ;
+char sex ,ms;
+printf ( "Enter age, sex, marital status " ) ;
+scanf ( "%d %c %c", &age, &sex, &ms ) ;
+if (ms=='M')
+printf("the driver should be insured ");
+else
+{
+if (sex=='M')
+{ 
+if (age>35)
+printf("the driver should be insured ");
+else
+printf("not insured");
+}
+else
+{
+if("age>25")
+printf("the driver should be insured ");
+else
+printf("not insured");
+}
+}
+return 0;
+}
+
+OUTPUT:
+
+Enter age, sex, marital status 
+36 M UM
+the driver should be insured     
+
+Enter age, sex, marital status 
+26 F UM
+the driver should be insured
+
+
+
+OTHER METHOD IN LOGIC GATES
+# include <stdio.h>
+int main( )
+{
+char sex, ms ;
+Downloaded from https://www.studycrux.com
+64 Let Us C
+int age ;
+printf ( "Enter age, sex, marital status " ) ;
+scanf ( "%d %c %c", &age, &sex, &ms ) ;
+if ( ( ms == 'M') || ( ms == 'U' && sex == 'M' && age > 30 ) ||
+( ms == 'U' && sex == 'F' && age > 25 ) )
+printf ( "Driver should be insured\n" ) ;
+else
+printf ( "Driver should not be insured\n" ) ;
+return 0 ;
+}
+OUTPUT:
+nter age, sex, marital status 18 M M
+Driver should be insured
+
