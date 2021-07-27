@@ -153,7 +153,7 @@ the driver should be insured
 
 
 
-OTHER METHOD IN LOGIC GATES
+OTHER METHOD IN LOGIC OPERATERS
 # include <stdio.h>
 int main( )
 {
@@ -173,4 +173,28 @@ return 0 ;
 OUTPUT:
 nter age, sex, marital status 18 M M
 Driver should be insured
+
+
+QUESTION 5:
+
+TO know the given number is a power of 2 ?
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("enter n\n");
+    scanf("%d",&n);
+    if(n^(n-1)==0)
+    printf("power of 2");
+    else 
+    printf("oops");
+
+    return 0;
+}
+ OUTPUT:
+ enter n
+ 256
+ power of 2
 
