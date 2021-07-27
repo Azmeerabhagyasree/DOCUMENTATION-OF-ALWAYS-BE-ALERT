@@ -1,3 +1,19 @@
+------------------------------------------------
+initialize loop counter ;                      !
+while ( test loop counter using a condition )  !
+{                                              !
+do this ;                                      !
+and this ;                                     !
+increment loop counter ;                       !
+}                                              !
+-----------------------------------------------!
+
+
+
+
+
+
+
 QUESTION 1:
 
 example that uses a while loop to calculate
