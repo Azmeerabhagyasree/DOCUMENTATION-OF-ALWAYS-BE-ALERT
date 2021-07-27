@@ -1,0 +1,34 @@
+QUESTION 1:
+
+example that uses a while loop to calculate
+simple interest for 3 sets of values of principal, number of years and rate
+of interest 
+
+#include<stdio.h>
+int main ()
+{
+    int p,n,count;
+    float r,si;
+     count=1;
+     while(count<=3)
+     {
+         printf("enter p,n,r\n");
+         scanf("%d %d %f",&p ,&n ,&r);
+         si =( p*n*r)/100;
+         printf("%f\n",si);
+         count=count+1;
+     }
+     return 0;
+}
+
+OUTPUT :
+enter p,n,r
+5000 1 3.1
+155.000000
+enter p,n,r
+2000 2 2.1
+84.000000
+enter p,n,r
+2200 4 1.3
+114.400002
+----------------------------------------------------------------------
