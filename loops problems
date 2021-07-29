@@ -47,4 +47,63 @@ enter p,n,r
 enter p,n,r
 2200 4 1.3
 114.400002
-----------------------------------------------------------------------
+----------------------------------------------------------------------!
+for ( initialize counter ; test counter ; increment counter )         !
+{                                                                     !
+do this ;                                                             !
+and this ;                                                            !
+and this ;                                                           !
+}                                                                    !
+-------------------------------------------------------------------------
+int main( )
+{
+int p, n, count ;
+float r, si ;
+for ( count = 1 ; count <= 3 ; count = count + 1 )
+{
+printf ( "Enter values of p, n, and r " ) ;
+scanf ( "%d %d %f", &p, &n, &r ) ;
+si = p * n * r / 100 ;
+printf ( "Simple Interest = Rs.%f\n", si ) ;
+}
+return 0 ;
+} 
+
+OUTPUT:
+Enter values of p, n, and r 12222 3 1.2
+Simple Interest = Rs.439.992035
+Enter values of p, n, and r 38947 3 1.4
+Simple Interest = Rs.1635.773926
+Enter values of p, n, and r 1874368 4 1.9
+Simple Interest = Rs.142451.968750
+--------------------------------------------------------------------
+
+NESTING OF LOOPS
+
+# include <stdio.h>
+int main( )
+{
+int r, c, sum ;
+for ( r = 1 ; r <= 3 ; r++ ) /* outer loop */
+{
+for ( c = 1 ; c <= 2 ; c++ ) /* inner loop */
+{
+sum = r + c ;
+printf ( "r = %d c = %d sum = %d\n", r, c, sum ) ;
+}
+}
+return 0 ;
+}
+
+
+OUTPUT:
+r = 1 c = 1 sum = 2
+r = 1 c = 2 sum = 3
+r = 2 c = 1 sum = 3
+r = 2 c = 2 sum = 4
+r = 3 c = 1 sum = 4
+r = 3 c = 2 sum = 5
+-----------------------------------------------------------------------------
+
+
+
