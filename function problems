@@ -1,1 +1,35 @@
 [function](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
+
+
+#include <stdio.h>
+void telangana();
+void andhra();
+void agartala();
+int main()
+{
+printf("i am in khammam\n");
+telangana();
+andhra();
+agartala();
+return 0;
+    
+}
+void telangana()
+{
+printf("i am in telangana\n") ;
+   
+}
+void andhra()
+{
+printf("i am in andhra\n");
+    
+}
+void agartala()
+{
+printf("i am in agartala\n");
+}
+OUTPUT:
+i am in khammam
+i am in telangana
+i am in andhra
+i am in agartala
