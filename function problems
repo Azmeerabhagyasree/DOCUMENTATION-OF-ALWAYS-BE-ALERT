@@ -99,3 +99,18 @@ printf ( "%d\n", k ) ;
 OUTPUT:
 35
 20
+------------------------------------------------------------------------------------------
+
+ONE DICEY ISSUE :
+# include <stdio.h>
+int main( )
+{
+int i = 10, j = 20 ;
+printf ( "%d %d %d\n", i, j ) ;
+printf ( "%d\n", i, j ) ;
+return 0 ;
+}
+  
+  OUTPUT:
+  10 20 0
+  10 
