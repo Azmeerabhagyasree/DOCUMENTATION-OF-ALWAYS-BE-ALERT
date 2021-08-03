@@ -1,3 +1,9 @@
  
  pointers 
- 
+           -------
+           |  i  |  👉 location name 
+           ------- 
+           |  5  |  👉 value at location
+           -------                  
+           |65524|  👉 address of location
+           -------    
