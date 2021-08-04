@@ -72,7 +72,6 @@ What if I want to change the license of my project?
 Does my project need an additional contributor agreement?                           
 What does my company’s legal team need to know?               
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
