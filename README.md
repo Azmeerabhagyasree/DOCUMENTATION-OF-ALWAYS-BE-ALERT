@@ -7,8 +7,11 @@
    
    ***The lion🦁 replied, I am not feeling well at all. But why don’t you come inside?
    *** Then the fox🦊 replied, I would love to come in, sir! But on seeing, all foot prints going to your cave and none coming out, I would be foolish enough to come in.
-   ***  Saying so, the fox went to alert the other animals.  ***  Moral: Always Keep Your Eyes Open and Stay Alert before Walking in Any Situation.                                                                                            
-    #Thinking Out of the Box (Creative Thinking):                          
+   ***  Saying so, the fox went to alert the other animals.  ***  Moral: Always Keep Your Eyes Open and Stay Alert before Walking in Any Situation.                                     
+   
+   
+   **Thinking Out of the Box (Creative Thinking):    
+    
 
 In a small Italian town, hundreds of years ago, a small business owner owed a large sum of money to a loan-shark. The loan-shark was a very old, unattractive looking guy that just so happened to fancy the business owner’s daughter.                           
 
