@@ -10,7 +10,7 @@
    ***  Saying so, the fox went to alert the other animals.  ***  Moral: Always Keep Your Eyes Open and Stay Alert before Walking in Any Situation.                                     
    
    
-   **Thinking Out of the Box (Creative Thinking):    
+   **Thinking_Out_of_the_Box (Creative Thinking):    
     
 
 In a small Italian town, hundreds of years ago, a small business owner owed a large sum of money to a loan-shark. The loan-shark was a very old, unattractive looking guy that just so happened to fancy the business owner’s daughter.                           
