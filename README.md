@@ -36,7 +36,8 @@ Take both pebbles out of the bag and expose the loan-shark for cheating.
 Pick a pebble from the bag fully well knowing it was black and sacrifice herself for her father’s freedom.                               
 She drew out a pebble from the bag, and before looking at it ‘accidentally’ dropped it into the midst of the other pebbles. She said to the loan-shark;                  
 
-“Oh, how clumsy of me. Never mind, if you look into the bag for the one that is left, you will be able to tell which pebble I picked.”           
+“Oh, how clumsy of me. Never mind, if you look into the bag for the one that is left, you will be able to tell which pebble I picked.”   
+Thank you        
 
 The pebble left in the bag is obviously black, and seeing as the loan-shark didn’t want to be exposed, he had to play along as if the pebble the daughter dropped was white, and clear her father’s debt.                  
 
